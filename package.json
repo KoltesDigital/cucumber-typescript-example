@@ -1,0 +1,20 @@
+{
+	"private": true,
+	"name": "cucumber-typescript-example",
+	"scripts": {
+		"test": "cucumber-js -p default",
+		"test-cicd": "cucumber-js -p cicd"
+	},
+	"dependencies": {
+		"tslib": "^1.10.0"
+	},
+	"devDependencies": {
+		"@types/chai": "^4.1.7",
+		"@types/cucumber": "^4.0.7",
+		"chai": "^4.2.0",
+		"cucumber": "^5.1.0",
+		"cucumber-tsflow": "^3.2.0",
+		"ts-node": "^8.3.0",
+		"typescript": "^3.5.3"
+	}
+}
